@@ -178,10 +178,10 @@ input, select, textarea {
 		font-weight: bold;
 	}
 
-	.button.large.scrolly {
+	/* .button.large.scrolly {
 		box-shadow: 2px 2px 2px white, 4px 4px 4px black;
 	}
-
+ */
 	h2 {
 		font-size: 2em;
 		letter-spacing: -0.015em;
