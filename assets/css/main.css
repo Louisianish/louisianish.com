@@ -2005,7 +2005,7 @@ input, select, textarea {
 		.wrapper.style1 {
 			background-image: none;
 			background: rgb(255,255,240);
-            background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%);
+            background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(0,86,255,1) 100%);
 		}
 
 		.wrapper.style2 {
