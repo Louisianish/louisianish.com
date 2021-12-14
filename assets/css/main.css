@@ -178,6 +178,10 @@ input, select, textarea {
 		font-weight: bold;
 	}
 
+	.button.large.scrolly {
+		box-shadow: 2px 2px 2px white, 4px 4px 4px black;
+	}
+
 	h2 {
 		font-size: 2em;
 		letter-spacing: -0.015em;
@@ -2005,7 +2009,7 @@ input, select, textarea {
 		.wrapper.style1 {
 			background-image: none;
 			background: rgb(255,255,240);
-            background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgb(68, 186, 255) 100%);
+            background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%);
 		}
 
 		.wrapper.style2 {
