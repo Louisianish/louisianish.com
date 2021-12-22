@@ -129,7 +129,7 @@ input, select, textarea {
 		}
 
 		a.portfolio:hover {
-			text-decoration: none;
+			background-color: white;
 		}
 
 		a img {
