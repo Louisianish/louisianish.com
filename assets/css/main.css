@@ -2099,6 +2099,12 @@ input, select, textarea {
 					background: #252525;
 				}
 
+		@media(max-width:568px) {
+			.style1, .style2, .style3 {
+				background-attachment: scroll;
+			}
+		}
+
 /* Nav */
 
 	#nav {
