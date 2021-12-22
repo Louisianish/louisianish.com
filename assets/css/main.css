@@ -2164,7 +2164,7 @@ input, select, textarea {
 		padding: 10em 0 10em 0;
 		text-align: left;
 		background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%);
-            background-attachment: fixed;
+        background-attachment: fixed;
 	}
 
 		#home .image {
