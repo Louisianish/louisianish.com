@@ -124,13 +124,18 @@ input, select, textarea {
 		}
 
 		a.aboutLinks:hover {
-			text-decoration: underline;
+			text-decoration: none;
+			color: rgb(0, 0, 204);
 			background-color: white;
+		}
+
+		a.portfolio {
+			color: blue;
 		}
 
 		a.portfolio:hover {
 			background-color: white;
-			color: blue;
+			color: rgb(0, 0, 204);;
 		}
 
 		a img {
@@ -231,6 +236,11 @@ input, select, textarea {
 
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
+	}
+
+	p {
+		color: #282828;
+		font-weight: bold;
 	}
 
 	header {
@@ -2033,18 +2043,22 @@ input, select, textarea {
 
 		.wrapper.style1 {
 			background-image: none;
-			background: rgb(255,255,240);
-            background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%);
+			background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%);
+            background-attachment: fixed;
 		}
 
 		.wrapper.style2 {
 			background-color: #fafafa;
 			text-shadow: 1px 1px 0px #fff;
+			background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%);
+            background-attachment: fixed;
 		}
 
 		.wrapper.style3 {
 			background-color: #f4f4f4;
 			text-shadow: 1px 1px 0px #fff;
+			background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%);
+            background-attachment: fixed;
 		}
 
 		.wrapper.style4 {
