@@ -2045,33 +2045,33 @@ input, select, textarea {
 		.wrapper.style1 {
 			background-image: none;
 			background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%);
-			background-attachment: fixed;
+			/* background-attachment: fixed;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
-			background-size: cover;
+			background-size: cover; */
 		}
 
 		.wrapper.style2 {
 			background-color: #fafafa;
 			text-shadow: 1px 1px 0px #fff;
 			background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%);
-			background-attachment: fixed;
+			/* background-attachment: fixed;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
-			background-size: cover;
+			background-size: cover; */
 		}
 
 		.wrapper.style3 {
 			background-color: #f4f4f4;
 			text-shadow: 1px 1px 0px #fff;
 			background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%);
-			background-attachment: fixed;
+			/* background-attachment: fixed;
 			-webkit-background-size: cover;
 			-moz-background-size: cover;
 			-o-background-size: cover;
-			background-size: cover;
+			background-size: cover; */
 		}
 
 		.wrapper.style4 {
