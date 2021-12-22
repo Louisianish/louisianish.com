@@ -2140,32 +2140,32 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-	#top {
+	#home {
 		padding: 10em 0 10em 0;
 		text-align: left;
 	}
 
-		#top .image {
+		#home .image {
 			border-radius: 100%;
 			width: 20em;
 			height: 20em;
 			margin: 0;
 		}
 
-			#top .image img {
+			#home .image img {
 				border-radius: 100%;
 			}
 
-		#top h1 {
+		#home h1 {
 			margin-top: 0.35em;
 		}
 
-		#top p {
+		#home p {
 			font-size: 1.5em;
 			line-height: 1.75em;
 		}
 
-			#top p a {
+			#home p a {
 				color: inherit;
 			}
 
@@ -2243,11 +2243,11 @@ input, select, textarea {
 
 		/* Articles */
 
-			#top {
+			#home {
 				padding: 8em 0;
 			}
 
-				#top .image {
+				#home .image {
 					width: 24em;
 					height: 24em;
 					margin: 0;
@@ -2261,12 +2261,12 @@ input, select, textarea {
 
 		/* Articles */
 
-			#top {
+			#home {
 				text-align: center;
 				padding: 5em 0;
 			}
 
-				#top .image {
+				#home .image {
 					margin: 0 auto 2em auto;
 				}
 
@@ -2441,17 +2441,17 @@ input, select, textarea {
 
 		/* Articles */
 
-			#top {
+			#home {
 				padding: 3em 0;
 			}
 
-				#top .image {
+				#home .image {
 					width: 15em;
 					height: 15em;
 					margin-bottom: 0;
 				}
 
-				#top p {
+				#home p {
 					font-size: 1em;
 				}
 
