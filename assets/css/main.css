@@ -2101,7 +2101,7 @@ input, select, textarea {
 
 		@media(max-width:568px) {
 			.style1, .style2, .style3 {
-				background-attachment: scroll;
+				background-attachment: fixed;
 			}
 		}
 
