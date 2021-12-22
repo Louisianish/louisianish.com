@@ -130,7 +130,7 @@ input, select, textarea {
 		}
 
 		a.portfolio {
-			color: blue;
+			color: #282828;
 		}
 
 		a.portfolio:hover {
@@ -213,6 +213,7 @@ input, select, textarea {
 	}
 
 	h3 {
+		color: #282828;
 		font-size: 1.5em;
 		letter-spacing: -0.015em;
 	}
