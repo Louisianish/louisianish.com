@@ -130,6 +130,7 @@ input, select, textarea {
 
 		a.portfolio:hover {
 			background-color: white;
+			color: blue;
 		}
 
 		a img {
