@@ -117,6 +117,16 @@ input, select, textarea {
 		a:hover {
 			background-color: #00b200; !important;
 		}
+		
+		a.aboutLinks {
+			color: blue;
+			text-decoration: none;
+		}
+
+		a.aboutLinks:hover {
+			text-decoration: underline;
+			background-color: white;
+		}
 
 		a img {
 			border: 0;
