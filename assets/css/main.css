@@ -128,6 +128,10 @@ input, select, textarea {
 			background-color: white;
 		}
 
+		a.portfolio:hover {
+			text-decoration: none;
+		}
+
 		a img {
 			border: 0;
 		}
