@@ -1536,6 +1536,11 @@ input, select, textarea {
 
 /* Form */
 
+	.email {
+		color: #00b200;
+		font-weight: bold;
+	}
+
 	form label {
 		color: #3e3e3e;
 		font-weight: 700;
