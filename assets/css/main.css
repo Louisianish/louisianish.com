@@ -129,11 +129,11 @@ input, select, textarea {
 			background-color: white;
 		}
 
-		a.portfolio {
+		a.projects {
 			color: #282828;
 		}
 
-		a.portfolio:hover {
+		a.projects:hover {
 			background-color: white;
 			color: rgb(0, 0, 204);;
 		}
