@@ -2104,13 +2104,8 @@ input, select, textarea {
 
 		@media(max-width:568px) {
 			.style1, .style2, .style3 {
-				background-image: none;
-				background-attachment: scroll;
-				background: rgb(255,255,240);
-				background: -moz-linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 35%);
-				background: -webkit-linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 35%);
-				background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 35%);
-				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fffff0",endColorstr="#62c6ff",GradientType=1);
+				/* background-image: url("images/sunrise-over-marsh.jpg"); */
+				background-attachment: initial;
 			}
 		}
 
