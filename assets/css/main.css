@@ -189,12 +189,12 @@ input, select, textarea {
 		font-weight: 300;
 		font-family: "Seaweed Script", cursive;
 		color: #e63900;
-		text-shadow: 2px 2px 2px white, 4px 4px 4px black;
+		text-shadow: 2px 2px 2px white, 4px 4px 4px black, 5px 5px 5px black;
 	}
 
 	.heading {
-		color: black;
-		text-shadow: 2px 2px 2px white;
+		color: white;
+		text-shadow: 2px 2px 2px black, 3px 3px 3px black;
 		font-weight: bold;
 	}
 
@@ -208,6 +208,8 @@ input, select, textarea {
 	}
 
 	h2 {
+		color: white;
+		text-shadow: 2px 2px 2px black, 3px 3px 3px black;
 		font-size: 2em;
 		letter-spacing: -0.015em;
 	}
@@ -2036,15 +2038,15 @@ input, select, textarea {
 /* Wrappers */
 
 	.wrapper {
-		background-image: url("images/bg.png");
-		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
+		background-image: url("images/sunrise-over-marsh.jpg");
+		background-size: cover;
+		/* box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1); */
 		padding: 8em 0 8em 0;
 		text-align: center;
 	}
 
 		.wrapper.style1 {
-			background-image: none;
-			background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%);
+			/* background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%); */
 			background-attachment: fixed;
 			/* -webkit-background-size: cover;
 			-moz-background-size: cover;
@@ -2053,9 +2055,9 @@ input, select, textarea {
 		}
 
 		.wrapper.style2 {
-			background-color: #fafafa;
+			/* background-color: #fafafa;
 			text-shadow: 1px 1px 0px #fff;
-			background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%);
+			background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%); */
 			background-attachment: fixed;
 			/* -webkit-background-size: cover;
 			-moz-background-size: cover;
@@ -2064,9 +2066,9 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #f4f4f4;
+			/* background-color: #f4f4f4;
 			text-shadow: 1px 1px 0px #fff;
-			background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%);
+			background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%); */
 			background-attachment: fixed;
 			/* -webkit-background-size: cover;
 			-moz-background-size: cover;
@@ -2075,6 +2077,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style4 {
+			background-image: none;
 			background-color: #303030;
 			color: #999;
 			text-shadow: -1px -1px 0px #181818;
@@ -2181,7 +2184,6 @@ input, select, textarea {
 	#home {
 		padding: 10em 0 10em 0;
 		text-align: left;
-		background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%);
         background-attachment: fixed;
 	}
 
