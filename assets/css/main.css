@@ -2108,7 +2108,8 @@ input, select, textarea {
 			.style1, .style2, .style3 {
 				/* background-image: url("images/sunrise-over-marsh.jpg"); */
 				background-attachment: fixed;
-				background-size: contain;
+				background-position: left top;
+				background-size: 148vh;
 			}
 		}
 
