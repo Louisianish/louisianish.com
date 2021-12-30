@@ -2217,13 +2217,13 @@ input, select, textarea {
 			background: #303030;
 			opacity: 96%;
 			box-shadow: 0px -4px 4px #303030, 4px 0px 4px #303030, 0px 4px 4px #303030, -4px 0px 4px #303030;
-			padding: 8% 5% 5% 5%;
+			padding: 10% 5% 5% 5%;
 			margin: 30px 0 30px 0;
 		}
 		
 		.heading {
 			color: white;
-			opcity: 100%;
+			opacity: 100%;
 			text-shadow: 2px 2px 2px black, 3px 3px 3px black;
 			font-weight: bold;
 			padding: 0;
@@ -2514,6 +2514,10 @@ input, select, textarea {
 
 				#home p {
 					font-size: 1em;
+				}
+
+				#home .intro {
+					padding: 5%;
 				}
 
 			#contact footer {
