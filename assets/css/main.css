@@ -2110,6 +2110,7 @@ input, select, textarea {
 			background-attachment: initial;
 			background-position: left top;
 			background-size: 148vh;
+			z-index: -1;
 		}
 	}
 /* Nav */
