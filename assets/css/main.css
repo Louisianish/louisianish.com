@@ -2105,7 +2105,7 @@ input, select, textarea {
 			/* background-image: url("images/sunrise-over-marsh.jpg"); */
 			background-attachment: scroll;
 			background-position: left top;
-			background-size: 160vh;
+			background-size: 148vh;
 		}
 	}
 /* Nav */
@@ -2212,16 +2212,20 @@ input, select, textarea {
 				color: inherit;
 			}
 
-		.intro {
+		#home .intro {
 			line-height: 44px;
 			background: #303030;
-			opacity: 96%;
+			opacity: 95%;
 			box-shadow: 0px -4px 4px #303030, 4px 0px 4px #303030, 0px 4px 4px #303030, -4px 0px 4px #303030;
 			padding: 10% 5% 5% 5%;
 			margin: 30px 0 30px 0;
 		}
+
+		#home .name {
+			opacity: 100%;
+		}
 		
-		.heading {
+		#home .heading {
 			color: white;
 			opacity: 100%;
 			text-shadow: 2px 2px 2px black, 3px 3px 3px black;
