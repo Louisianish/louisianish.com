@@ -2106,7 +2106,7 @@ input, select, textarea {
 		@media(max-width:568px) {
 			.style1, .style2, .style3 {
 				/* background-image: url("images/sunrise-over-marsh.jpg"); */
-				background-attachment: initial;
+				background-attachment: fixed;
 				background-size: cover;
 			}
 		}
