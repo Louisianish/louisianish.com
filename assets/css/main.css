@@ -1552,6 +1552,7 @@ input, select, textarea {
 	.email {
 		color: #00b200;
 		font-weight: bold;
+		text-shadow: 2px 2px 2px black;
 	}
 
 	form label {
