@@ -31,4 +31,10 @@
 			offset: function() { return $nav.height(); }
 		});
 
+	// Fixed background image.
+		$(window).scroll(function() {
+			var scrolledY = $(window).scrollTop();
+			$('#container').css('background-position', 'left ' + ((scrolledY)) + 'px');
+		});
+
 })(jQuery);
