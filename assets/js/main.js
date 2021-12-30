@@ -31,10 +31,12 @@
 			offset: function() { return $nav.height(); }
 		});
 
-	// Fixed background image.
-		$(window).scroll(function() {
-			var scrolledY = $(window).scrollTop();
-			$('.wrapper').css('background-position', 'left ' + ((scrolledY)) + 'px');
-		});
+	// Fixed background image on mobile.
+		if (window.innerWidth < 1000) {
+			$(window).scroll(function() {
+				var scrolledY = $(window).scrollTop();
+				$('.wrapper').css('background-position', 'left ' + ((scrolledY)) + 'px');
+			});
+		}
 
 })(jQuery);
