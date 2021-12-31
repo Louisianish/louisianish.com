@@ -1971,7 +1971,7 @@ input, select, textarea {
 
 		.box.style1 {
 			padding: 3em 2em 3.5em 2em;
-			box-shadow: 0px -4px 4px #fef7f1, 4px 0px 4px #fef7f1, 0px 4px 4px #fef7f1, -4px 0px 4px #fef7f1;
+			box-shadow: 0px -4px 2px #fef7f1, 0px -8px 4px #fef748, 4px 0px 2px #fef7f1, 8px 0px 4px #fef748, 0px 4px 2px #fef7f1, 0px 8px 4px #fef748, -4px 0px 2px #fef7f1, -8px 0px 4px #fef748;
 			opacity: 95%;
 		}
 
@@ -2218,13 +2218,15 @@ input, select, textarea {
 				color: inherit;
 			}
 
-		#home .intro {
-			line-height: 44px;
-			background: #303030;
-			opacity: 95%;
-			box-shadow: 0px -4px 2px #303030, 0px -8px 4px #fef748, 4px 0px 2px #303030, 8px 0px 4px #fef748, 0px 4px 2px #303030, 0px 8px 4px #fef748, -4px 0px 2px #303030, -8px 0px 4px #fef748;
-			padding: 10% 5% 5% 5%;
-			margin: 30px 0 30px 0;
+			#home .intro {
+				line-height: 44px;
+				background: linear-gradient(180deg, #fef7f1 0%, #303030 100%);
+				border-radius: 25px;
+				opacity: 95%;
+				box-shadow: -3px -4px 8px #fef7f1, 4px 0px 4px #303030, 0px 4px 4px #303030;
+				padding: 10% 5% 5% 5%;
+				margin: 30px 0 30px 0;
+			}
 		}
 
 		#home .name {
