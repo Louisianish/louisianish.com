@@ -2223,7 +2223,7 @@ input, select, textarea {
 				background: linear-gradient(180deg, #fef7f1 0%, #303030 100%);
 				border-radius: 25px;
 				opacity: 95%;
-				box-shadow: -3px -4px 8px #fef7f1, 4px 0px 4px #303030, 0px 4px 4px #303030;
+				box-shadow: -3px -4px 8px #fef7f1, 4px 0px 4px #303030, 0px 4px 4px #303030, -1px 1px 4px #303030;
 				padding: 10% 5% 5% 5%;
 				margin: 30px 0 30px 0;
 			}
