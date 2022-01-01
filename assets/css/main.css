@@ -2220,14 +2220,13 @@ input, select, textarea {
 
 			#home .intro {
 				line-height: 44px;
-				background: linear-gradient(180deg, #fef7f1 0%, #303030 100%);
+				background: linear-gradient(180deg, #737373 0%, #303030 100%);
 				border-radius: 25px;
 				opacity: 95%;
-				box-shadow: -3px -4px 8px #fef7f1, 4px 0px 4px #303030, 0px 4px 4px #303030, -1px 1px 4px #303030;
+				box-shadow: 0px -4px 4px #737373, 4px 0px 4px #404040, 0px 4px 4px #303030, -4px 0px 4px #595959;
 				padding: 10% 5% 5% 5%;
 				margin: 30px 0 30px 0;
 			}
-		}
 
 		#home .name {
 			opacity: 100%;
