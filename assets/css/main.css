@@ -2130,6 +2130,7 @@ input, select, textarea {
 			background-attachment: initial;
 			background-position: initial;
 			position: sticky;
+			position: -webkit-sticky;
 			background-size: 160vh;
 		}
 	}
