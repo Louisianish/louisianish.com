@@ -134,8 +134,9 @@ input, select, textarea {
 		}
 
 		a.projects:hover {
-			background-color: white;
-			color: rgb(0, 0, 204);;
+			color: blue;
+			background: #fef7f1;
+			text-decoration: none;
 		}
 
 		a img {
@@ -2126,7 +2127,7 @@ input, select, textarea {
 	@media(max-width:568px) {
 		.style1, .style2, .style3 {
 			/* background-image: url("images/sunrise-over-marsh.jpg"); */
-			background-attachment: scroll;
+			background-attachment: initial;
 			background-position: left top;
 			background-size: 160vh;
 		}
