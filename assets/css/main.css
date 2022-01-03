@@ -2128,7 +2128,7 @@ input, select, textarea {
 		.style1, .style2, .style3 {
 			/* background-image: url("images/sunrise-over-marsh.jpg"); */
 			background-attachment: initial;
-			/* background-position: initial; */
+			background-position: initial;
 			position: sticky;
 			position: -webkit-sticky;
 			background-size: 160vh;
