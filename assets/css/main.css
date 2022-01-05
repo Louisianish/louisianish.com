@@ -126,7 +126,7 @@ input, select, textarea {
 		a.aboutLinks:hover {
 			text-decoration: none;
 			color: rgb(0, 0, 204);
-			background-color: white;
+			background-color: #fef7f1;
 		}
 
 		a.projects {
@@ -135,7 +135,7 @@ input, select, textarea {
 
 		a.projects:hover {
 			color: blue;
-			background: #fef7f1;
+			background-color: #fef7f1;
 			text-decoration: none;
 		}
 
