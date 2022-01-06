@@ -119,13 +119,13 @@ input, select, textarea {
 		}
 		
 		a.aboutLinks {
-			color: blue;
+			color: #fd6908;
 			text-decoration: none;
 		}
 
 		a.aboutLinks:hover {
 			text-decoration: none;
-			color: rgb(0, 0, 204);
+			color: #d8551b;
 			background-color: #fef7f1;
 		}
 
@@ -196,12 +196,12 @@ input, select, textarea {
 	}
 
 	.button.large.scrolly {
-		background-color: #00b200;
+		background-color: #629183;
 /* 		box-shadow: 2px 2px 2px white, 4px 4px 4px black; */
 	}
 
 	.button.large.scrolly:hover {
-		background-color: #009d00;
+		background-color: #4d7371;
 	}
 
 	h2 {
@@ -1552,7 +1552,7 @@ input, select, textarea {
 /* Form */
 
 	.email {
-		color: #00b200;
+		color: #629183;
 		font-weight: bold;
 		text-shadow: 2px 2px 2px black;
 	}
