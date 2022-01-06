@@ -111,11 +111,11 @@ input, select, textarea {
 		-ms-transition: color .2s ease-in-out;
 		transition: color .2s ease-in-out;
 		color: #282828;
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 		a:hover {
-			background-color: #00b200; !important;
+			color: #d8551b; !important;
 		}
 		
 		a.aboutLinks {
@@ -130,11 +130,11 @@ input, select, textarea {
 		}
 
 		a.projects {
-			color: #282828;
+			color: #fd6908;
 		}
 
 		a.projects:hover {
-			color: blue;
+			color: #d8551b;
 			background-color: #fef7f1;
 			text-decoration: none;
 		}
