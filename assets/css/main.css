@@ -189,7 +189,7 @@ input, select, textarea {
 		letter-spacing: -0.025em;
 		font-weight: 300;
 		font-family: "Seaweed Script", cursive;
-		color: #e63900;
+		color: #f54f01;
 		text-shadow: 2px 2px 2px white, 4px 4px 4px black, 5px 5px 5px black;
 		padding: 0%;
 		margin: 0%;
@@ -1740,7 +1740,7 @@ input, select, textarea {
 		text-shadow: -1px -1px 0.5px rgba(0, 0, 0, 0.5);
 		overflow: hidden;
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.5), inset 0px 2px 1px 0px rgba(255, 255, 255, 0.75);
-		background-color: #00b200;
+		background-color: #629183;
 		padding: 1em 2.35em 1em 2.35em;
 		font-size: 1.1em;
 		max-width: 24em;
@@ -1752,7 +1752,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			color: #fff !important;
-			background-color: #009d00;
+			background-color: #4d7371;
 		}
 
 		input[type="button"]:active,
@@ -1760,7 +1760,7 @@ input, select, textarea {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #00b200;
+			background-color: #629183;
 			top: 1px;
 		}
 
