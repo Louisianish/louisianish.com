@@ -131,6 +131,7 @@ input, select, textarea {
 
 		a.projects {
 			color: #fd6908;
+			text-shadow: 1px 1px 2px black;
 		}
 
 		a.projects:hover {
