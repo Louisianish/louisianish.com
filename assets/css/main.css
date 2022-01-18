@@ -2128,9 +2128,9 @@ input, select, textarea {
 	@media(max-width:568px) {
 		.style1, .style2, .style3 {
 			/* background-image: url("images/sunrise-over-marsh.jpg"); */
-			background-attachment: initial;
-			position: sticky;
+			background-attachment: scroll;
 			position: -webkit-sticky;
+			position: sticky;
 			background-size: 160vh;
 		}
 
