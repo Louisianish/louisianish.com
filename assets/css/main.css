@@ -2133,6 +2133,7 @@ input, select, textarea {
             background-size: 160vh;
 			position: -webkit-sticky;
 			position: sticky;
+			display: block;
 		}
 
 		.style4 {
