@@ -35,9 +35,7 @@
 		if (window.innerWidth < 1000) {
 			$(window).scroll(function() {
 				var scrolledY = $(window).scrollTop(), speed = 1;
-				// $('.wrapper').css('background-position', 'left ' + ((scrolledY)) + 'px');
 				$('.wrapper').css('background-position', 'left ' + ((scrolledY * speed)) + 'px');
-				// $('.background-image').css('background-attachment', 'fixed');
 			});
 		}
 
