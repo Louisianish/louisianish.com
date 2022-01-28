@@ -2129,7 +2129,7 @@ input, select, textarea {
 		.style1, .style2, .style3 {
 			/* background-image: url("images/sunrise-over-marsh.jpg"); */
 			background-attachment: scroll;
-            background-position: left top;
+            background-position: 0 0;
             background-size: 170vh;
 			position: -webkit-sticky;
 			position: sticky;
