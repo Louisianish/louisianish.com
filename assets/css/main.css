@@ -2062,7 +2062,7 @@ input, select, textarea {
  .wrapper {
 	background: url("images/sunrise-over-marsh.jpg");
 	background-size: cover;
-	box-shadow: inset 0px 4px 4px 4px #303030, inset 0px -4px 4px 4px #303030;
+	/* box-shadow: inset 0px 4px 4px 4px #303030, inset 0px -4px 4px 4px #303030; */
 	padding: 8em 0 8em 0;
 	text-align: center;
 }
