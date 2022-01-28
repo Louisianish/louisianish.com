@@ -36,7 +36,8 @@
 			$(window).scroll(function() {
 				var scrolledY = $(window).scrollTop();
 				// $('.wrapper').css('background-position', 'left ' + ((scrolledY)) + 'px');
-				$('.background-image').css('background-attachment', 'fixed');
+				$('.wrapper').css('background-position', 'left ' + ((scrolledY)) + 'px');
+				// $('.background-image').css('background-attachment', 'fixed');
 			});
 		}
 
