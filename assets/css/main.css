@@ -2059,22 +2059,6 @@ input, select, textarea {
 
  /* Wrappers */
 
-.background-image {
-	background-image: url("images/sunrise-over-marsh.jpg");
-	background-size: cover;
-	background-attachment: fixed;
-}
-
-@media(max-width:568px) {
-	.background-image {
-		/* background-image: url("images/sunrise-over-marsh.jpg"); */
-		background-attachment: scroll;
-		background-position: left top;
-		background-size: 170vh;
-		position: -webkit-sticky;
-		position: sticky;
-	}
-
  .wrapper {
 	/* background: url("images/sunrise-over-marsh.jpg"); */
 	/* background-size: cover; */
@@ -2083,36 +2067,42 @@ input, select, textarea {
 	text-align: center;
 }
 
-	/* .wrapper.style1 {
-		background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%);
-		background-attachment: fixed;
-		-webkit-background-size: cover;
-		-moz-background-size: cover;
-		-o-background-size: cover;
+	.background-image {
+		background-image: url("images/sunrise-over-marsh.jpg");
 		background-size: cover;
-	} */
+		background-attachment: fixed;
+	}
 
-	/* .wrapper.style2 {
-		background-color: #fafafa;
-		text-shadow: 1px 1px 0px #fff;
-		background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%);
+	.wrapper.style1 {
+		/* background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%); */
 		background-attachment: fixed;
-		-webkit-background-size: cover;
+		/* -webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
-		background-size: cover;
-	} */
+		background-size: cover; */
+	}
 
-	/* .wrapper.style3 {
-		background-color: #f4f4f4;
+	.wrapper.style2 {
+		/* background-color: #fafafa;
 		text-shadow: 1px 1px 0px #fff;
-		background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%);
+		background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%); */
 		background-attachment: fixed;
-		-webkit-background-size: cover;
+		/* -webkit-background-size: cover;
 		-moz-background-size: cover;
 		-o-background-size: cover;
-		background-size: cover;
-	} */
+		background-size: cover; */
+	}
+
+	.wrapper.style3 {
+		/* background-color: #f4f4f4;
+		text-shadow: 1px 1px 0px #fff;
+		background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 100%); */
+		background-attachment: fixed;
+		/* -webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover; */
+	}
 
 	.wrapper.style4 {
 		background-image: none;
