@@ -2060,7 +2060,8 @@ input, select, textarea {
  /* Wrappers */
 
 .parallax {
-	background-image: url("images/sunrise-over-marsh.jpg");
+	background: url("images/sunrise-over-marsh.jpg");
+	background-position: left top;
 	background-attachment: fixed;
 	background-size: cover;
 }
@@ -2139,7 +2140,6 @@ input, select, textarea {
             background-size: 170vh;
 			position: -webkit-sticky;
 			position: sticky;
-			display: block;
 		}
 
 		.style4 {
