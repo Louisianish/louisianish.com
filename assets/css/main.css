@@ -2065,6 +2065,16 @@ input, select, textarea {
 	background-attachment: fixed;
 }
 
+@media(max-width:568px) {
+	.background-image {
+		/* background-image: url("images/sunrise-over-marsh.jpg"); */
+		background-attachment: scroll;
+		background-position: left top;
+		background-size: 170vh;
+		position: -webkit-sticky;
+		position: sticky;
+	}
+
  .wrapper {
 	/* background: url("images/sunrise-over-marsh.jpg"); */
 	/* background-size: cover; */
@@ -2132,7 +2142,7 @@ input, select, textarea {
 			}
 
 	@media(max-width:568px) {
-		.style1, .style2, .style3, .background-image {
+		.background-image {
 			/* background-image: url("images/sunrise-over-marsh.jpg"); */
 			background-attachment: scroll;
             background-position: left top;
