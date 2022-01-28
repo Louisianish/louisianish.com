@@ -34,7 +34,8 @@
 	// Fixed background image on mobile.
 		if (window.innerWidth < 1000) {
 			$(window).scroll(function() {
-				var scrolledY = $(window).scrollTop();
+				var scrolledY = $(window).scrollTop() * factor;
+				var factor = 2;
 				// $('.wrapper').css('background-position', 'left ' + ((scrolledY)) + 'px');
 				$('.wrapper').css('background-position', 'left ' + ((scrolledY)) + 'px');
 				// $('.background-image').css('background-attachment', 'fixed');
