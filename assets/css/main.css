@@ -119,25 +119,19 @@ input, select, textarea {
 	  } */
 
 	/* Fixed background image on mobile devices */
-	@media(pointer:coarse) and (max-width:568px) {
+	/* @media(pointer:coarse) and (max-width:568px) {
 		.fixed-img {
-			/* background-image: url("images/sunrise-over-marsh.jpg");
-			background-attachment: initial;
-            background-position: 0 0;
-            background-size: 170vh;
-			position: -webkit-sticky;
-			position: sticky; */
 			background: url("images/sunrise-over-marsh.jpg");
 			height: 170vh;
 			width: 170vw;
-			/* position: fixed; */
+			position: fixed;
 			margin-top: 0;
 			background-position: left top;
 			background-repeat: no-repeat;
 			background-size: 170vh;
 			z-index: -1;
 		}
-	}	
+	}	 */
 
 	a {
 		-moz-transition: color .2s ease-in-out;
@@ -2161,16 +2155,16 @@ input, select, textarea {
 				background: #252525;
 			}
 
-	/* @media(pointer:coarse) and (max-width:568px) {
+	@media(pointer:coarse) and (max-width:568px) {
 		.style1, .style2, .style3 {
 			background-image: url("images/sunrise-over-marsh.jpg");
 			background-attachment: initial;
             background-position: 0 0;
             background-size: 170vh;
-			position: -webkit-sticky;
-			position: sticky;
+			position: -webkit-fixed;
+			position: fixed;
 			
-			background: url("images/sunrise-over-marsh.jpg");
+			/* background: url("images/sunrise-over-marsh.jpg");
 			height: 170vh;
 			width: 170vw;
 			position: fixed;
@@ -2178,8 +2172,8 @@ input, select, textarea {
 			background-position: left top;
 			background-repeat: no-repeat;
 			background-size: 170vh;
-			z-index: -1;
-		} */
+			z-index: -1; */
+		}
 
 /* Nav */
 
