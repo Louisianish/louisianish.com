@@ -83,7 +83,8 @@ input, select, textarea {
 	}
 
 	body {
-		padding-top: 3.5em;
+		padding-top: 0;
+		margin-top: 0;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -104,6 +105,39 @@ input, select, textarea {
 		font-weight: 300;
 		font-size: 13pt;
 	}
+
+	/* .fixed-img {
+		background: url("images/sunrise-over-marsh.jpg");
+		height: 170vh;
+		width: 170vw;
+		position: fixed;
+		margin-top: 0;
+		background-position: left top;
+		background-repeat: no-repeat;
+		background-size: 170vh;
+		z-index: -1;
+	  } */
+
+	/* Fixed background image on mobile devices */
+	@media(pointer:coarse) and (max-width:568px) {
+		.fixed-img {
+			/* background-image: url("images/sunrise-over-marsh.jpg");
+			background-attachment: initial;
+            background-position: 0 0;
+            background-size: 170vh;
+			position: -webkit-sticky;
+			position: sticky; */
+			background: url("images/sunrise-over-marsh.jpg");
+			height: 170vh;
+			width: 170vw;
+			position: fixed;
+			margin-top: 0;
+			background-position: left top;
+			background-repeat: no-repeat;
+			background-size: 170vh;
+			z-index: -1;
+		}
+	}	
 
 	a {
 		-moz-transition: color .2s ease-in-out;
@@ -326,6 +360,8 @@ input, select, textarea {
 				}
 
 		}
+		
+		
 
 /* Row */
 
@@ -2125,20 +2161,26 @@ input, select, textarea {
 				background: #252525;
 			}
 
-	@media(pointer:coarse) and (max-width:568px) {
+	/* @media(pointer:coarse) and (max-width:568px) {
 		.style1, .style2, .style3 {
-			/* background-image: url("images/sunrise-over-marsh.jpg"); */
+			background-image: url("images/sunrise-over-marsh.jpg");
 			background-attachment: initial;
             background-position: 0 0;
             background-size: 170vh;
 			position: -webkit-sticky;
 			position: sticky;
-		}
+			
+			background: url("images/sunrise-over-marsh.jpg");
+			height: 170vh;
+			width: 170vw;
+			position: fixed;
+			margin-top: 0;
+			background-position: left top;
+			background-repeat: no-repeat;
+			background-size: 170vh;
+			z-index: -1;
+		} */
 
-		.style4 {
-			box-shadow: 0px -4px 4px 4px #303030;
-		}
-	}
 /* Nav */
 
 	#nav {
@@ -2209,8 +2251,10 @@ input, select, textarea {
 /* Articles */
 
 	body > article {
+		margin-top: 0;
 		margin-bottom: 0;
 	}
+	
 
 	#home {
 		padding: 10em 0 10em 0;
@@ -2376,7 +2420,7 @@ input, select, textarea {
 		/* Basic */
 
 			body {
-				padding-top: 44px;
+				padding-top: 0;
 			}
 
 			body, input, textarea, select {
