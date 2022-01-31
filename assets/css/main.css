@@ -2125,7 +2125,7 @@ input, select, textarea {
 				background: #252525;
 			}
 
-	@media(max-width:568px) {
+	@media(pointer:coarse) and (max-width:568px) {
 		.style1, .style2, .style3 {
 			/* background-image: url("images/sunrise-over-marsh.jpg"); */
 			background-attachment: scroll;
