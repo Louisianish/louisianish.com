@@ -106,33 +106,6 @@ input, select, textarea {
 		font-size: 13pt;
 	}
 
-	/* .fixed-img {
-		background: url("images/sunrise-over-marsh.jpg");
-		height: 170vh;
-		width: 170vw;
-		position: fixed;
-		margin-top: 0;
-		background-position: left top;
-		background-repeat: no-repeat;
-		background-size: 170vh;
-		z-index: -1;
-	  } */
-
-	/* Fixed background image on mobile devices */
-	/* @media(pointer:coarse) and (max-width:568px) {
-		.fixed-img {
-			background: url("images/sunrise-over-marsh.jpg");
-			height: 170vh;
-			width: 170vw;
-			position: fixed;
-			margin-top: 0;
-			background-position: left top;
-			background-repeat: no-repeat;
-			background-size: 170vh;
-			z-index: -1;
-		}
-	}	 */
-
 	a {
 		-moz-transition: color .2s ease-in-out;
 		-webkit-transition: color .2s ease-in-out;
@@ -2091,7 +2064,7 @@ input, select, textarea {
  /* Wrappers */
 
  .wrapper {
-	background: url("images/sunrise-over-marsh.jpg");
+	/* background: url("images/sunrise-over-marsh.jpg"); */
 	background-size: cover;
 	/* box-shadow: inset 0px 4px 4px 4px #303030, inset 0px -4px 4px 4px #303030; */
 	padding: 8em 0 8em 0;
@@ -2156,14 +2129,14 @@ input, select, textarea {
 				background: #252525;
 			}
 
-	@media(pointer:coarse) and (max-width:568px) {
+	/* @media(pointer:coarse) and (max-width:568px) {
 		.style1, .style2, .style3 {
-			/* background-image: url("images/sunrise-over-marsh.jpg"); */
+			background-image: url("images/sunrise-over-marsh.jpg");
 			background-attachment: initial;
             background-position: 0 0;
             background-size: 170vh;
 			position: -webkit-sticky;
-			position: sticky;
+			position: sticky; */
 			
 			/* background: url("images/sunrise-over-marsh.jpg");
 			height: 170vh;
@@ -2174,12 +2147,26 @@ input, select, textarea {
 			background-repeat: no-repeat;
 			background-size: 170vh;
 			z-index: -1; */
-		}
+		/* }
 
 		#logo {
 			margin-top: 50px;
 		}
-	}
+	} */
+
+/* Fixed background image */
+
+#fixed-background {
+	background-image: url("images/sunrise-over-marsh.jpg");
+	position: fixed;
+	height: 100vh;
+		width: 100vw;
+		margin-top: 24px;
+		background-position: left top;
+	background-repeat: no-repeat;
+		background-size: cover;
+		z-index: -1;
+}
 
 /* Nav */
 
