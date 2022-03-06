@@ -2614,7 +2614,7 @@ input, select, textarea {
 
 /* Thank You Page */
 
-	/* .thank-you {
+	.thank-you {
 		text-align: center;
 		padding-top: 200px;
 	}
@@ -2626,4 +2626,4 @@ input, select, textarea {
 
 	#return:hover {
 		color: #4d7371;
-	} */
+	}
