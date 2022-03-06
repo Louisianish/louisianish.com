@@ -2619,7 +2619,7 @@ input, select, textarea {
 		padding-top: 200px;
 	}
 
-	.return {
+	#return {
 		text-align: center;
 		color: #629183;
 	}
