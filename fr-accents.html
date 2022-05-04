@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, maximum-scale=1">
+    <title>Fr-àcçénts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap" rel="stylesheet" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" crossorigin="anonymous">
+     <link rel="stylesheet" href="/assets/css/accents.css">
+</head>
+<body class="container" layout="responsive">
+    <header class="logo">
+        <h2 class="headline">Fr-àcçénts</h2>
+    </header>
+    <a href="https://louisianish.com/" target="_blank" title="visit my website">
+      <h5 class="trademark" id="trademark">by Louisianish&trade;</h5>  
+    </a>
+    <h4 id="instructions">Instructions for use on desktop:<br><br>Type your message in the text box below. Click on one of the buttons below the text box when you want to type an accented letter. Finally, <a href="https://www.youtube.com/watch?v=RhXg4tvIft4" target="_blank" class="links" title="video on how to copy and past text">copy and paste</a> the text to your message, comment, document, email, etc.</h4>
+    <div class="tooltip">
+      <button onclick="myFunction()" onmouseout="outFunc()" id="copy-text">
+        <span class="tooltiptext" id="myTooltip">Copy text</span>
+      </button>
+    </div>
+    <form>
+      <textarea name="message" placeholder="Type message here..." id="input" required></textarea>
+    </form>
+    <div id="accentButtons">
+          <!-- <input type="button" class="diacritics" title="Alt+0226" value="â" onclick="valueButton(this);"> -->
+          <input type="button" class="diacritics" title="Alt+0224" value="à" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0225" value="á" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0230" value="æ" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0233" value="é" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0232" value="è" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0234" value="ê" onclick="valueButton(this);">
+          <!-- <input type="button" class="diacritics" title="Alt+0235" value="ë" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0238" value="î" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0239" value="ï" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0237" value="í" onclick="valueButton(this);"> -->
+          <input type="button" class="diacritics" title="Alt+0236" value="ì" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0244" value="ô" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0156" value="œ" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0242" value="ò" onclick="valueButton(this);">
+          <!-- <input type="button" class="diacritics" title="Alt+0243" value="ó" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0249" value="ù" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0250" value="ú" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0251" value="û" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0252" value="ü" onclick="valueButton(this);"> -->
+          <input type="button" class="diacritics" title="Alt+0231" value="ç" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0241" value="ñ" onclick="valueButton(this);">
+        <br><br>
+          <!-- <input type="button" class="diacritics" title="Alt+0194" value="Â" onclick="valueButton(this);"> -->
+          <input type="button" class="diacritics" title="Alt+0192" value="À" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0193" value="Á" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0198" value="Æ" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0201" value="É" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0200" value="È" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0202" value="Ê" onclick="valueButton(this);">
+          <!-- <input type="button" class="diacritics" title="Alt+0203" value="Ë" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0206" value="Î" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0207" value="Ï" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0205" value="Í" onclick="valueButton(this);"> -->
+          <input type="button" class="diacritics" title="Alt+0204" value="Ì" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0212" value="Ô" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0140" value="Œ" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0210" value="Ò" onclick="valueButton(this);">
+          <!-- <input type="button" class="diacritics" title="Alt+0211" value="Ó" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0217" value="Ù" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0218" value="Ú" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0219" value="Û" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0220" value="Ü" onclick="valueButton(this);"> -->
+          <input type="button" class="diacritics" title="Alt+0199" value="Ç" onclick="valueButton(this);">
+          <input type="button" class="diacritics" title="Alt+0209" value="Ñ" onclick="valueButton(this);">
+    </div>
+    <p>
+      <h4 id="purpose">Developer note:
+        <br><br>
+        My purpose in creating this virtual accent keyboard is to make typing in French as easy as possible for those in our Louisiana francophone community who wish to easily type in the language while using a computer.
+        <br><br>
+        Other than using virtual keyboards, other ways to type accented letters on desktop include using <a href="https://sites.psu.edu/symbolcodes/windows/codealt/" target="_blank" class="links" title="website about Alt Codes">Windows Alt Codes</a> and enabling an <a href="https://www.youtube.com/watch?v=OF5pjbDldMU" target="_blank" class="links" title="video on how to configure an international keyboard">international keyboard</a> in the settings of your computer.
+        <br><br>
+        If you are on mobile, accented letters are already built into your device's virtual keyboard. Simply hold your finger down on the letter to which you wish to add an accent mark, and select one of the characters that appears as explained in <a href="https://www.youtube.com/watch?v=KISboIn6kq8" target="_blank" class="links" title="video on how to add diacritics on mobile">this video</a>.
+        <br><br>
+        I hope to add more features to this accent keyboard in the future, but in the meantime, for those who would like a more robust virtual language keyboard, I highly recommend <a href="https://www.typeit.org/" target="_blank" class="links" title="TypeIt website">TypeIt</a> by Tomasz Szynalski. In addition to keyboards in various languages, TypeIt also features a couple of virtual IPA (International Phonetic Alphabet) keyboards. My favorite IPA keyboard, however, is this <a href="https://westonruter.github.io/ipa-chart/keyboard/" target="_blank" class="links" title="IPA chart keyboard">IPA chart</a> keyboard by Weston Ruter.
+        <br><br>
+        To my users:
+        <br>
+        It currently only allows you to insert an accented letter via button command at the end of the text you have previously typed. I'm also aware that text that has been typed disappears when the page refreshes, so if you're concerned about losing what you've typed, it might be a good idea to click on the "Copy text" button before temporarily leaving the page for now. I apologize for the inconvenience and thank you for your patience as I search for an appropriate solution to these issues.
+        <br><br>
+        Mèsi pou vini! (Thanks for stopping by!)
+      </h4>
+      <br>
+      <div id="signature">- Michael &#128522;</div>
+    </p>
+    <footer>
+        <ul id="copyright">
+            <li title="copyright 2022 Louisianish Touch trademark">&copy; 2022 Louisianish Touch&trade;</li>
+        </ul>
+    </footer>
+  <script type="text/javascript" src="/assets/js/accents.js"></script>
+</body>
+</html>
