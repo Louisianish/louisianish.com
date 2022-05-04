@@ -1,0 +1,184 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    height: auto;
+    min-height: 200vh;
+    min-width: 600px;
+    background: linear-gradient(130deg, rgba(255,255,240,1) 0%, rgba(98,198,255,1) 20%, rgba(0,0,255,1) 50%);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.container {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    font-family: "Seaweed Script", cursive;
+}
+
+.logo {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 1.5rem 1rem 0 1rem;
+    text-align: center;
+    text-shadow: 2px 2px 2px white, 4px 4px 4px black;
+    font-size: 80px;
+    color: #e63900;
+    font-weight: normal;
+}
+
+.headline {
+    margin: 0 auto;
+    height: 130px;
+    font-weight: normal;
+    text-align: left;
+}
+
+#trademark {
+    max-width: 500px;
+    text-align: right;
+    color: gold;
+    text-shadow: 2px 2px 2px black;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    margin: 0 0 20px 0;
+    font-size: 30px;
+    font-weight: normal;
+    transition: 0.2s ease-out;
+}
+
+#trademark:hover {
+    color: black;
+    text-shadow: 2px 2px 2px gold; 
+}
+
+h4 {
+    display: block;
+    margin: auto;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 0;
+    text-align: left;
+    justify-content: left;
+    text-shadow: 2px 2px 2px black;
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+    font-family: Noto Sans, sans-serif;
+}
+
+#instructions {
+/*     font-family: "Seaweed Script", cursive; */
+/*     font-size: 25px; */
+    margin: 20px auto;
+}
+
+#copy-text {
+    display: block;
+    color: black;
+    font-weight: bold;
+    margin: 10px 45px 0 auto;
+    padding: 5px;
+    justify-content: right;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px white, 3px 3px 4px black;
+    transition: 0.1s ease-out;
+}
+
+#copy-text:hover {
+    transform: scale(0.9);
+    box-shadow: 0.8px 0.8px 1px white, 2px 2px 3px black;
+}
+
+textarea {
+    width: 80%;
+    height: 60px;
+    background-color: white;
+    box-shadow: 2px 2px 2px white, 4px 4px 4px black;
+    padding: 15px;
+    margin: 20px auto;
+    border: 0.5px solid #EFEFEF;
+    border-radius: 5px;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.main {
+    padding: 20px;
+}
+
+#accentButtons {
+    text-align: center;
+    line-height: 1;
+    letter-spacing: 0.6em;
+}
+
+.diacritics {
+    color: black;
+    padding: 4px 5px 3px 5px;
+    margin: auto;
+    box-shadow: 1px 1px 2px white, 3px 3px 4px black;
+    border-width: 2px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 400;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    opacity: 1;
+    transition: 0.2s ease-out;
+}
+
+.diacritics:hover {
+    transform: scale(0.9);
+    box-shadow: 0.8px 0.8px 1px white, 2px 2px 3px black;
+}
+
+#purpose {
+    margin: 0;
+    padding: 20px 45px;
+}
+
+.links {
+    color: gold;
+    text-shadow: 2px 2px 2px black;
+    transition: 0.2s ease-out;
+}
+
+.links:hover {
+    color: black;
+    text-shadow: 2px 2px 2px gold;
+}
+
+#signature {
+    max-width: 500px;
+    text-align: right;
+    color: gold;
+    text-shadow: 2px 2px 2px black;
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    margin: 0 0 10px 0;
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#copyright {
+    list-style: none;
+    margin: 20px auto;
+    text-align: center;
+    color: #e63900;
+    font-size: 24px;
+    text-shadow: 0.5px 0.5px 1px white, 1px 1px 1px black;
+}
