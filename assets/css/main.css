@@ -224,6 +224,10 @@ input, select, textarea {
 		letter-spacing: -0.015em;
 	}
 
+	.accent-keyboards {
+		display: inline;
+	}
+
 	em, i {
 		font-style: italic;
 	}
