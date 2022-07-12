@@ -42,7 +42,43 @@ function myFunction() {
       document.getElementById('input').focus();
   }
   
-  // Insert button value at current caret (cursor) position in textarea
-  
+  // Insert button value at current caret (cursor) position in textarea (from https://www.codeproject.com/Articles/13748/JavaScript-Virtual-Keyboard?fbclid=IwAR1PX7Nm-ARW_J-W9xss_BuYBSTtXbe8Pz9LG7Sck6gh9KDTqlYt7g6L5yY)
+  function insertAtCaret(ctrl, val)
+    {
+        if(insertionS != insertionE) deleteSelection(ctrl);
+
+        if(isgecko && document.createEvent && !window.opera)
+        {
+            var e = document.createEvent("KeyboardEvent");
+
+            if(e.initKeyEvent && ctrl.dispatchEvent)
+            {
+                e.initKeyEvent("keypress", // in DOMString typeArg,
+                    false,                 // in boolean canBubbleArg,
+                    true,                  // in boolean cancelableArg,
+                    null,                  // in nsIDOMAbstractView viewArg,
+                    false,                 // in boolean ctrlKeyArg,
+                    false,                 // in boolean altKeyArg,
+                    false,                 // in boolean shiftKeyArg,
+                    false,                 // in boolean metaKeyArg,
+                    null,                  // key code;
+                    val.charCodeAt(0));    // char code.
+
+                ctrl.dispatchEvent(e);
+            }
+        }
+        else
+        {
+            var tmp =
+                (document.selection &&
+                !window.opera) ? ctrl.value.replace(/\r/g,"") : ctrl.value;
+            ctrl.value =
+                tmp.substring(0,
+                insertionS) + val + tmp.substring(insertionS,
+                tmp.length);
+        }
+
+        setRange(ctrl, insertionS + val.length, insertionS + val.length);
+    }
   
   // Store everything typed in textarea on reload
