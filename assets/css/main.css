@@ -2629,3 +2629,16 @@ input, select, textarea {
 		font-size: 40px;
 		font-weight: bold;
 	}
+
+	@media screen and (max-width: 736px) {
+
+		#thank-you-page {
+			max-width: 90%;
+			margin: 0 auto;
+		}
+
+		#thank-you {
+			font-size: 26px;
+		}
+
+	}
