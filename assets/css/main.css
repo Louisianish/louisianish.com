@@ -2618,16 +2618,14 @@ input, select, textarea {
 
 /* Thank You Page */
 
-	.thank-you {
+	#thank-you-page {
 		text-align: center;
+	}
+
+	#thank-you {
 		padding-top: 200px;
-	}
-
-	#return {
-		text-align: center;
-		color: #629183;
-	}
-
-	#return:hover {
-		color: #4d7371;
+		color: white;
+		text-shadow: 2px 2px 2px black, 3px 3px 3px black;
+		font-size: 40px;
+		font-weight: bold;
 	}
