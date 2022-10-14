@@ -1631,6 +1631,11 @@ input, select, textarea {
 		border: 0;
 	}
 
+	#email {
+		border: none;
+		background: #282828;
+	}
+
 /* Tables */
 
 	table {
