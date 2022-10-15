@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Bilingual KV-EN Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/bilingual-form.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Example bilingual KV-EN form</h1>
+      <h3>(Hover over text in Kouri-Vini to see it transform into English)</h3>
+    </header>
+    <main>
+      <form action="/" method="get">
+        <ul class="languages">
+          <li>
+            <h2><p class="kouri-vini">Linformasyon Pærsonnèl</p></h2>
+            <h2><p class="english">Personal Information</p></h2>
+          </li>
+        </ul>
+
+        <ul class="languages">
+          <li>
+            <p class="kouri-vini"><label for="username">Nom</label></p>
+            <p class="english"><label for="username">Name</label></p>
+          </li>
+          <li>
+            <input type="text" name="user-name" id="username" />
+          </li>
+        </ul>
+
+        <ul class="languages">
+          <li>
+            <p class="kouri-vini"><label for="useremail">Malèk</label></p>
+            <p class="english"><label for="useremail">Email</label></p>
+          </li>
+          <li>
+            <input type="email" name="user-email" id="useremail" />
+          </li>
+        </ul>
+
+        <ul class="languages">
+          <li>
+            <p class="kouri-vini"><label for="userage">Laj</label></p>
+            <p class="english"><label for="userage">Age</label></p>
+          </li>
+          <li>
+            <input type="number" step="1" name="user-age" id="userage" />
+          </li>
+        </ul>
+
+        <ul class="languages">
+          <li>
+            <p class="kouri-vini">
+              <label for="userpassword">Paròl Segré</label>
+            </p>
+            <p class="english"><label for="userpassword">Password</label></p>
+          </li>
+          <li>
+            <input type="password" name="user-password" id="userpassword" />
+          </li>
+        </ul>
+
+        <ul class="languages">
+          <li>
+            <p class="kouri-vini">
+              <label for="birthdate">Jou Lanésans</label>
+            </p>
+            <p class="english"><label for="birthdate">Birthdate</label></p>
+          </li>
+          <li>
+            <input type="date" name="user-birthdate" id="birthdate" />
+          </li>
+        </ul>
+
+        <ul class="languages">
+          <li>
+            <p class="kouri-vini">
+              <label for="favoritecolor">Ki çé tô méyœr koulœr?</label>
+            </p>
+            <p class="english">
+              <label for="favoritecolor">What is your favorite color?</label>
+            </p>
+          </li>
+        </ul>
+
+        <select name="favorite-color" id="favoritecolor">
+          <option value="red" title="red">rouj</option>
+          <option value="orange" title="orange">zoranj</option>
+          <option value="yellow" title="yellow">jonn</option>
+          <option value="green" title="green">vær</option>
+          <option value="blue" title="blue">blé</option>
+          <option value="purple" title="purple">vyolé</option>
+          <option value="brown" title="brown">maron</option>
+          <option value="black" title="black">nwa</option>
+          <option value="white" title="white">blan</option>
+        </select>
+
+        <!-- The following method technically works, but the changes are delayed. -->
+        <!-- <select name="favorite-color" id="favoritecolor" class="languages">
+          <option value="red" title="red" class="kouri-vini">rouj</option>
+          <option value="red" title="red" class="english">red</option>
+          <option value="orange" title="orange" class="kouri-vini"
+            >zoranj</option
+          >
+          <option value="orange" title="orange" class="english">orange</option>
+          <option value="yellow" title="yellow" class="kouri-vini">jonn</option>
+          <option value="yellow" title="yellow" class="english">yellow</option>
+          <option value="green" title="green" class="kouri-vini">vær</option>
+          <option value="green" title="green" class="english">green</option>
+          <option value="blue" title="blue" class="kouri-vini">blé</option>
+          <option value="blue" title="blue" class="english">blue</option>
+          <option value="purple" title="purple" class="kouri-vini"
+            >vyolé</option
+          >
+          <option value="purple" title="purple" class="english">purple</option>
+          <option value="brown" title="brown" class="kouri-vini">maron</option>
+          <option value="brown" title="brown" class="english">brown</option>
+          <option value="black" title="black" class="kouri-vini">nwa</option>
+          <option value="black" title="black" class="english">black</option>
+          <option value="white" title="white" class="kouri-vini">blan</option>
+          <option value="white" title="white" class="english">white</option>
+        </select> -->
+
+        <ul class="languages">
+          <li>
+            <p class="kouri-vini"><label for="usermessage">Mésaj</label></p>
+            <p class="english"><label for="usermessage">Message</label></p>
+          </li>
+          <li>
+            <textarea name="user-message" id="usermessage"></textarea>
+          </li>
+        </ul>
+
+        <ul class="languages">
+          <li>
+            <h2><p class="kouri-vini">Komen nou sé vérifyé tô konmt?</p></h2>
+            <h2><p class="english">How should we verify your account?</p></h2>
+          </li>
+        </ul>
+
+        <div class="form-control-inline languages">
+          <input
+            type="radio"
+            name="verify"
+            id="verify-text-message"
+            value="text-message"
+          />
+          <label for="verify-text-message" class="kouri-vini"
+            >Par in mésaj tèks</label
+          >
+          <label for="verify-text-message" class="english"
+            >By text message</label
+          >
+        </div>
+
+        <div class="form-control-inline languages">
+          <input type="radio" name="verify" id="verify-phone" value="phone" />
+          <label for="verify-phone" class="kouri-vini">Par in lapèl</label>
+          <label for="verify-phone" class="english">By phone call</label>
+        </div>
+
+        <div class="form-control-inline languages">
+          <input type="radio" name="verify" id="verify-email" value="email" />
+          <label for="verify-email" class="kouri-vini">Par in malèk</label>
+          <label for="verify-email" class="english">By email</label>
+        </div>
+
+        <div class="form-control-inline languages">
+          <input
+            type="checkbox"
+            name="contact"
+            id="contact-phone"
+            value="phone"
+          />
+          <label for="contact-phone" class="kouri-vini"
+            >Kontakté-mò par téléfonn</label
+          >
+          <label for="contact-phone" class="english"
+            >Contact me by telephone</label
+          >
+        </div>
+
+        <div class="form-control-inline languages">
+          <input
+            type="checkbox"
+            name="contact"
+            id="contact-email"
+            value="email"
+          />
+          <label for="contact-email" class="kouri-vini"
+            >Kontakté-mò par malèk</label
+          >
+          <label for="contact-email" class="english">Contact me by email</label>
+        </div>
+        <hr />
+
+        <div class="form-control-inline languages">
+          <input type="checkbox" name="terms" id="agree-terms" />
+          <label for="agree-terms" class="kouri-vini"
+            >Mo dakò vèk kondisyon-yé.</label
+          >
+          <label for="agree-terms" class="english"
+            >I agree to the terms & conditions.</label
+          >
+        </div>
+
+        <button class="languages">
+          <div class="kouri-vini">Soumèt</div>
+          <div class="english">Submit</div>
+        </button>
+      </form>
+    </main>
+    <footer>
+      <h3><a href="https://louisianish.com">Return to Louisianish.com</a></h3>
+    </footer>
+  </body>
+</html>
