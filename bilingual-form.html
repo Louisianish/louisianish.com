@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Bilingual KV-EN Form</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -32,30 +32,24 @@
             <p class="kouri-vini"><label for="username">Nom</label></p>
             <p class="english"><label for="username">Name</label></p>
           </li>
-          <li>
-            <input type="text" name="user-name" id="username" />
-          </li>
         </ul>
+        <input type="text" name="user-name" id="username" />
 
         <ul class="languages">
           <li>
             <p class="kouri-vini"><label for="useremail">Malèk</label></p>
             <p class="english"><label for="useremail">Email</label></p>
           </li>
-          <li>
-            <input type="email" name="user-email" id="useremail" />
-          </li>
         </ul>
+        <input type="email" name="user-email" id="useremail" />
 
         <ul class="languages">
           <li>
             <p class="kouri-vini"><label for="userage">Laj</label></p>
             <p class="english"><label for="userage">Age</label></p>
           </li>
-          <li>
-            <input type="number" step="1" name="user-age" id="userage" />
-          </li>
         </ul>
+        <input type="number" step="1" name="user-age" id="userage" />
 
         <ul class="languages">
           <li>
@@ -64,10 +58,8 @@
             </p>
             <p class="english"><label for="userpassword">Password</label></p>
           </li>
-          <li>
-            <input type="password" name="user-password" id="userpassword" />
-          </li>
         </ul>
+        <input type="password" name="user-password" id="userpassword" />
 
         <ul class="languages">
           <li>
@@ -76,10 +68,8 @@
             </p>
             <p class="english"><label for="birthdate">Birthdate</label></p>
           </li>
-          <li>
-            <input type="date" name="user-birthdate" id="birthdate" />
-          </li>
         </ul>
+        <input type="date" name="user-birthdate" id="birthdate" />
 
         <ul class="languages">
           <li>
@@ -91,7 +81,6 @@
             </p>
           </li>
         </ul>
-
         <select name="favorite-color" id="favoritecolor">
           <option value="red" title="red">rouj</option>
           <option value="orange" title="orange">zoranj</option>
@@ -135,10 +124,8 @@
             <p class="kouri-vini"><label for="usermessage">Mésaj</label></p>
             <p class="english"><label for="usermessage">Message</label></p>
           </li>
-          <li>
-            <textarea name="user-message" id="usermessage"></textarea>
-          </li>
         </ul>
+        <textarea name="user-message" id="usermessage"></textarea>
 
         <ul class="languages">
           <li>
@@ -147,13 +134,20 @@
           </li>
         </ul>
 
-        <div class="form-control-inline languages">
+        <br />
+
+        <div class="form-control-inline" style="display: inline-block;">
           <input
             type="radio"
             name="verify"
             id="verify-text-message"
             value="text-message"
           />
+        </div>
+        <div
+          class="form-control-inline languages"
+          style="display: inline-block;"
+        >
           <label for="verify-text-message" class="kouri-vini"
             >Par in mésaj tèks</label
           >
@@ -162,25 +156,46 @@
           >
         </div>
 
-        <div class="form-control-inline languages">
+        <br />
+
+        <div class="form-control-inline" style="display: inline-block;">
           <input type="radio" name="verify" id="verify-phone" value="phone" />
+        </div>
+        <div
+          class="form-control-inline languages"
+          style="display: inline-block;"
+        >
           <label for="verify-phone" class="kouri-vini">Par in lapèl</label>
           <label for="verify-phone" class="english">By phone call</label>
         </div>
 
-        <div class="form-control-inline languages">
+        <br />
+
+        <div class="form-control-inline" style="display: inline-block;">
           <input type="radio" name="verify" id="verify-email" value="email" />
+        </div>
+        <div
+          class="form-control-inline languages"
+          style="display: inline-block;"
+        >
           <label for="verify-email" class="kouri-vini">Par in malèk</label>
           <label for="verify-email" class="english">By email</label>
         </div>
 
-        <div class="form-control-inline languages">
+        <br />
+
+        <div class="form-control-inline" style="display: inline-block;">
           <input
             type="checkbox"
             name="contact"
             id="contact-phone"
             value="phone"
           />
+        </div>
+        <div
+          class="form-control-inline languages"
+          style="display: inline-block;"
+        >
           <label for="contact-phone" class="kouri-vini"
             >Kontakté-mò par téléfonn</label
           >
@@ -189,22 +204,37 @@
           >
         </div>
 
-        <div class="form-control-inline languages">
+        <br />
+
+        <div class="form-control-inline" style="display: inline-block;">
           <input
             type="checkbox"
             name="contact"
             id="contact-email"
             value="email"
           />
+        </div>
+        <div
+          class="form-control-inline languages"
+          style="display: inline-block;"
+        >
           <label for="contact-email" class="kouri-vini"
             >Kontakté-mò par malèk</label
           >
           <label for="contact-email" class="english">Contact me by email</label>
         </div>
+
+        <br />
+
         <hr />
 
-        <div class="form-control-inline languages">
+        <div class="form-control-inline" style="display: inline-block;">
           <input type="checkbox" name="terms" id="agree-terms" />
+        </div>
+        <div
+          class="form-control-inline languages"
+          style="display: inline-block;"
+        >
           <label for="agree-terms" class="kouri-vini"
             >Mo dakò vèk kondisyon-yé.</label
           >
@@ -212,6 +242,8 @@
             >I agree to the terms & conditions.</label
           >
         </div>
+
+        <br />
 
         <button class="languages">
           <div class="kouri-vini">Soumèt</div>
