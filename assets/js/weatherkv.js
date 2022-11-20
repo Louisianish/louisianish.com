@@ -1,4 +1,4 @@
-/ Tutorial by http:/ / youtube.com / CodeExplained;
+// Tutorial by http://youtube.com/CodeExplained
 // Alterations by Louisianish - See the following sections:
 // - "Kouri-Vini weather description translations"
 // - "when Fahrenheit is displayed upon loading"
@@ -80,9 +80,23 @@ function getWeather(latitude, longitude) {
     });
 }
 
+<<<<<<< HEAD
+=======
+// Location protocol - Added by Louisianish
+// var location;
+// var url;
+if (location.protocol === "http:") {
+  url =
+    "http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}&units=imperial";
+} else {
+  url =
+    "https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}&units=imperial";
+}
+
+>>>>>>> 968634a8f75075b75ee4eb7016e0d23be7266f78
 // DISPLAY WEATHER TO UI
 function displayWeather() {
-  iconElement.innerHTML = `<img src="/images/weather-icons/${weather.iconId}.png"/>`;
+  iconElement.innerHTML = `<img src="images/weather-icons/${weather.iconId}.png"/>`;
   tempElement.innerHTML = `${weather.temperature.value}°<span>F</span>`;
   descElement.innerHTML = weather.description;
   locationElement.innerHTML = `${weather.city}, ${weather.country}`;
