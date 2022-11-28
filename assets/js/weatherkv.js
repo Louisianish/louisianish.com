@@ -80,8 +80,6 @@ function getWeather(latitude, longitude) {
     });
 }
 
-<<<<<<< HEAD
-=======
 // Location protocol - Added by Louisianish
 // var location;
 // var url;
@@ -93,7 +91,6 @@ if (location.protocol === "http:") {
     "https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${key}&units=imperial";
 }
 
->>>>>>> 968634a8f75075b75ee4eb7016e0d23be7266f78
 // DISPLAY WEATHER TO UI
 function displayWeather() {
   iconElement.innerHTML = `<img src="images/weather-icons/${weather.iconId}.png"/>`;
