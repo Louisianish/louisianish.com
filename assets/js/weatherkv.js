@@ -98,6 +98,30 @@ function displayWeather() {
   descElement.innerHTML = weather.description;
   locationElement.innerHTML = `${weather.city}, ${weather.country}`;
 
+  // Display state if city is in U.S.
+  // fetch(apiCity)
+  //     .then(function(response) {
+  //         let data = response.json();
+  //         return data;
+  //     })
+  //     .then(function(data) {
+  //         weather.temperature.value = Math.floor(data.main.temp);
+  //         weather.description = data.weather[0].description;
+  //         weather.iconId = data.weather[0].icon;
+  //         weather.city = data.name;
+  //         weather.country = data.sys.country;
+  //         weather.id = data.sys.id;
+  //     })
+  //     .then(function() {
+  //         displayWeather();
+  //     });   
+  
+  // if (weather.country == "US") {
+  //   locationElement.innerHTML = `${weather.city}, ${weather.id}`;
+  // } else {
+  //     locationElement.innerHTML = `${weather.city}, ${weather.country}`;
+  // }
+
   // Kouri-Vini weather description translations - Added by Louisianish
   let weatherCondition = document.getElementById("kourivini").innerHTML;
 
@@ -229,19 +253,19 @@ function displayWeather() {
     // City names in Kouri-Vini - Added by Louisianish
     // let cityKv = document.getElementById("location").innerHTML;
 
-    if(locationElement.innerHTML == "Chicago, US")
+    if (locationElement.innerHTML == "Chicago, US")
         document.getElementById("location").innerHTML = "Shikago, Ozilinwa";
-    else if(locationElement.innerHTML == "Matteson, US")
+    else if (locationElement.innerHTML == "Matteson, US")
         document.getElementById("location").innerHTML = "Matteson, Ozilinwa";
-    else if(locationElement.innerHTML == "Niceville, US")
+    else if (locationElement.innerHTML == "Niceville, US")
         document.getElementById("location").innerHTML = "Vayanvil, Laflorid";
-    else if(locationElement.innerHTML == "Paris, FR")
+    else if (locationElement.innerHTML == "Paris, FR")
         document.getElementById("location").innerHTML = "Pari, Lafrans";
-    else if(locationElement.innerHTML == "London, GB")
+    else if (locationElement.innerHTML == "London, GB")
         document.getElementById("location").innerHTML = "Lalonn, Langlotær";
-    else if(locationElement.innerHTML == "Salt Lake City, US")
+    else if (locationElement.innerHTML == "Salt Lake City, US")
         document.getElementById("location").innerHTML = "Olak-Salé, Litò";
-    else if(locationElement.innerHTML == "Salt Lake, US")
+    else if (locationElement.innerHTML == "Salt Lake, US")
         document.getElementById("location").innerHTML = "Olak-Salé, Litò";
 }
 
@@ -300,26 +324,28 @@ form.addEventListener("submit", function (event) {
 
 // Add a function for city to be submitted upon pressing 'Enter'
 document.querySelector(".button").addEventListener("click", function () {
-  const city = document.getElementById("searchbar").value;
-  const zip = document.getElementById("searchbar").value;
-  const state = document.getElementById("searchbar").value;
-  const country = document.getElementById("searchbar").value;
-  let apiCity = `https://api.openweathermap.org/data/2.5/weather?q=${zip},${city},${state},${country}&appid=${key}&units=imperial`;
+    const city = document.getElementById("searchbar").value;
+    const zip = document.getElementById("searchbar").value;
+    const state = document.getElementById("searchbar").value;
+    const country = document.getElementById("searchbar").value;
+    let apiCity = `https://api.openweathermap.org/data/2.5/weather?q=${zip},${city},${state},${country}&appid=${key}&units=imperial`;
 
-  console.log(apiCity);
+    console.log(apiCity);
 
-  fetch(apiCity).then(function (response) {
-    let data = response.json();
-    return data
-      .then(function (data) {
-        weather.temperature.value = Math.floor(data.main.temp);
-        weather.description = data.weather[0].description;
-        weather.iconId = data.weather[0].icon;
-        weather.city = data.name;
-        weather.country = data.sys.country;
+    fetch(apiCity)
+    .then(function(response){
+      let data = response.json();
+      return data
+      .then(function(data) {
+          weather.temperature.value = Math.floor(data.main.temp);
+          weather.description = data.weather[0].description;
+          weather.iconId = data.weather[0].icon;
+          weather.city = data.name;
+          weather.country = data.sys.country;
       })
-      .then(function () {
-        displayWeather();
-      });
-  });
+      .then(function(){
+          displayWeather();
+      });   
+    });
 });
+
