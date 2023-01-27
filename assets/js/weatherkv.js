@@ -64,19 +64,19 @@ function getWeather(latitude, longitude) {
   console.log(api);
 
   fetch(api)
-    .then(function (response) {
+    .then(function(response) {
       let data = response.json();
-      return data;
-    })
-    .then(function (data) {
-      weather.temperature.value = Math.floor(data.main.temp);
-      weather.description = data.weather[0].description;
-      weather.iconId = data.weather[0].icon;
-      weather.city = data.name;
-      weather.country = data.sys.country;
-    })
-    .then(function () {
-      displayWeather();
+      return data
+      .then(function(data) {
+          weather.temperature.value = Math.floor(data.main.temp);
+          weather.description = data.weather[0].description;
+          weather.iconId = data.weather[0].icon;
+          weather.city = data.name;
+          weather.country = data.sys.country;
+      })
+      .then(function() {
+          displayWeather();
+      });   
     });
 }
 
@@ -333,7 +333,7 @@ document.querySelector(".button").addEventListener("click", function () {
     console.log(apiCity);
 
     fetch(apiCity)
-    .then(function(response){
+    .then(function(response) {
       let data = response.json();
       return data
       .then(function(data) {
@@ -343,7 +343,7 @@ document.querySelector(".button").addEventListener("click", function () {
           weather.city = data.name;
           weather.country = data.sys.country;
       })
-      .then(function(){
+      .then(function() {
           displayWeather();
       });   
     });
