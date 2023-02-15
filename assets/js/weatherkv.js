@@ -292,7 +292,9 @@ function displayWeather() {
         "Paris, FR": "Pari, Lafrans",
         "London, GB": "Lalonn, Langlotær",
         "Salt Lake City, US": "Olak-Salé, Litò",
-        "Salt Lake, US": "Olak-Salé, Litò"
+        "Salt Lake, US": "Olak-Salé, Litò",
+        "Baton Rouge, US": "Batonrouj, Lalwizyàn",
+        "Oak Hills Place, US": "Istrouma, Lalwizyàn"
     }
     
     if (locationElement.innerHTML in locations) {
