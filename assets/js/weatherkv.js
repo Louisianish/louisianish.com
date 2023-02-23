@@ -79,7 +79,7 @@ function getWeather(latitude, longitude) {
       });   
     });
 }
-// Bonjour!
+
 // Location protocol - Added by Louisianish
 // var location;
 // var url;
