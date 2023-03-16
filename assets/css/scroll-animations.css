@@ -1,8 +1,8 @@
 .hidden {
     opacity: 0;
     filter: blur(5px);
-    transition: all 1s;
-    transform: translateY(80%);
+    transition: all 1.5s;
+    transform: translateY(60%);
 }
 
 .show {
@@ -13,7 +13,7 @@
 
 @media screen and (max-width: 736px) {
     .hidden {
-        transform: translateY(50%);
+        transform: translateY(40%);
     }
 
     .show {
