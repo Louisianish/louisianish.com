@@ -11,12 +11,13 @@
     transform: translateY(0);
 }
 
-/* @media screen and (max-width: 736px) {
+@media screen and (max-width: 736px) {
     .hidden {
+        transition: 0.5s;
         transform: translateY(100%);
     }
 
     .show {
         transform: translateY(0);
     }
-} */
+}
