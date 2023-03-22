@@ -1,0 +1,82 @@
+/* Reset Stylesheet */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid aqua; */
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: rgb(44, 41, 44);
+    background-color: gold;
+    text-align: center;
+}
+
+#main-header {
+    background-color: rgb(140, 0, 255);
+    color: white;
+    padding: 1rem 5% 1.5rem 5%;
+}
+
+#tig-tac-toe {
+    color: gold;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.btn {
+    font: inherit;
+    padding: 0.5rem 1.5rem;
+    background-color: rgb(140, 0, 255);
+    border: 1px solid rgb(140, 0, 255);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-alt {
+    background-color: transparent;
+    border-color: transparent;
+    color: rgb(140, 0, 255);
+}
+
+.btn:hover {
+    background-color: rgb(94, 4, 168);
+    border-color: rgb(94, 4, 168);
+}
+
+.btn-alt:hover {
+    background-color: rgb(230, 201, 252);
+    border-color: transparent;
+}
+
+#start-game-btn {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+#start-game-btn a {
+    color: white;
+    text-decoration: none;
+    transition: 1s ease-in-out;
+}
+
+#louisianish-link {
+    text-decoration: none;
+    color: gold;
+}
+
+#louisianish-link:hover {
+    text-decoration: none;
+    color: rgb(255, 232, 100);
+}
+
+@media screen and (max-width: 736px) {
+    p {
+    font-size: 0.8rem;
+    }
+}
