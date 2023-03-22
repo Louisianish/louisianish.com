@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Tig-Tac-Toe/styles/style.css" />
+    <link rel="stylesheet" href="Tig-Tac-Toe/styles/overlays.css" />
+    <link rel="stylesheet" href="Tig-Tac-Toe/styles/configuration.css" />
+    <link rel="stylesheet" href="Tig-Tac-Toe/styles/game.css" />
+
+    <title>Tig-Tac-Toe</title>
+  </head>
+  <body>
+    <div id="backdrop"></div>
+    <header id="main-header">
+      <h1 id="tig-tac-toe">Tig-Tac-Toe</h1>
+      <p>
+        <b
+          >Un jeu d'tic-tac-toe au thème d'LSU par
+          <a href="http://louisianish.com" target="_blank" rel="noopener" id="louisianish-link"
+            >Louisianish</a
+          ></b
+        >
+      </p>
+    </header>
+    <main>
+      <aside class="modal" id="config-overlay">
+        <h2>Qui c'est ton nom, padna?</h2>
+
+        <form class="form-control">
+          <div>
+            <label for="playername">(Écris ton nom icitte en bas!)</label>
+            <input type="text" name="playername" id="playername" required />
+          </div>
+          <p id="config-errors"></p>
+          <div>
+            <button type="reset" class="btn btn-alt" id="cancel-config-btn">
+              Canceler
+            </button>
+            <button type="submit" class="btn">Confirmer</button>
+          </div>
+        </form>
+      </aside>
+      <section id="game-configuration">
+        <ol id="players">
+          <li>
+            <article id="player-1-data">
+              <h2>Padna 1</h2>
+              <h3 id="player-1-name">NOM DE PADNA</h3>
+              <p class="player-symbol">X</p>
+              <button
+                class="btn btn-alt"
+                id="edit-player-1-btn"
+                data-playerid="1"
+              >
+                Éditer
+              </button>
+            </article>
+          </li>
+          <li>
+            <article id="player-2-data">
+              <h2>Padna 2</h2>
+              <h3 id="player-2-name">NOM DE PADNA</h3>
+              <p class="player-symbol">O</p>
+              <button
+                class="btn btn-alt"
+                id="edit-player-2-btn"
+                data-playerid="2"
+              >
+                Éditer
+              </button>
+            </article>
+          </li>
+        </ol>
+        <button class="btn" id="start-game-btn">
+          <a href="#next-player-turn">COMMENCER UN NOUVEAU JEU</a>
+        </button>
+      </section>
+      <section id="active-game">
+        <article id="game-over">
+          <h3>
+            Bon ouvrage, <span id="winner-name">NOM DE PADNA</span>! T'as gagné!
+          </h3>
+          <p>
+            Cliquez d'sus "COMMENCER UN NOUVEAU JEU" pour recommencer!
+          </p>
+        </article>
+
+        <p id="next-player-turn">
+          C'est ton tour,
+          <span id="active-player-name">NOM DE PADNA</span>!
+        </p>
+        <ol id="game-board">
+          <li data-col="1" data-row="1"></li>
+          <li data-col="2" data-row="1"></li>
+          <li data-col="3" data-row="1"></li>
+
+          <li data-col="1" data-row="2"></li>
+          <li data-col="2" data-row="2"></li>
+          <li data-col="3" data-row="2"></li>
+
+          <li data-col="1" data-row="3"></li>
+          <li data-col="2" data-row="3"></li>
+          <li data-col="3" data-row="3"></li>
+        </ol>
+      </section>
+    </main>
+    <script src="Tig-Tac-Toe/scripts/config.js"></script>
+    <script src="Tig-Tac-Toe/scripts/game.js"></script>
+    <script src="Tig-Tac-Toe/scripts/app.js"></script>
+  </body>
+</html>
