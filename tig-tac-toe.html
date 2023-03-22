@@ -53,7 +53,7 @@
           <li>
             <article id="player-1-data">
               <h2>Padna 1</h2>
-              <h3 id="player-1-name">NOM DE PADNA</h3>
+              <h3 id="player-1-name" data-playerid="1">NOM DE PADNA</h3>
               <p class="player-symbol">X</p>
               <button
                 class="btn btn-alt"
@@ -67,7 +67,7 @@
           <li>
             <article id="player-2-data">
               <h2>Padna 2</h2>
-              <h3 id="player-2-name">NOM DE PADNA</h3>
+              <h3 id="player-2-name" data-playerid="2">NOM DE PADNA</h3>
               <p class="player-symbol">O</p>
               <button
                 class="btn btn-alt"
@@ -79,7 +79,7 @@
             </article>
           </li>
         </ol>
-        <button class="btn" id="start-game-btn">
+        <button class="btn" id="start-game-btn" onclick="window.location.href='#next-player-turn';">
           <a href="#next-player-turn">COMMENCER UN NOUVEAU JEU</a>
         </button>
       </section>
