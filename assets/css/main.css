@@ -2605,7 +2605,7 @@ input, select, textarea {
 
 				#home .intro {
 					padding: 5%;
-					margin-top: 80px;
+					margin-top: 80px !important;
 				}
 
 			#contact footer {
