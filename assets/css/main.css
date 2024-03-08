@@ -72,6 +72,10 @@ input, select, textarea {
 	appearance: none;
 }
 
+.col-4, .col-6-medium, .col-12-small, .hidden, .show {
+    display: flex;
+}
+
 /* Basic */
 
 	html {
